@@ -1,4 +1,30 @@
-Docker: Utilização prática no cenário de Microsserviços
-Denilson Bonatti, Instrutor - Digital Innovation One
+# 🚀 Microsserviços com Docker – Inspirado por TOSHIRO SHIBAKITA
 
-Muito se tem falado de containers e consequentemente do Docker no ambiente de desenvolvimento. Mas qual a real função de um container no cenários de microsserviços? Qual a real função e quais exemplos práticos podem ser aplicados no dia a dia? Essas são algumas das questões que serão abordadas de forma prática pelo Expert Instructor Denilson Bonatti nesta Live Coding. IMPORTANTE: Agora nossas Live Codings acontecerão no canal oficial da dio._ no YouTube. Então, já corre lá e ative o lembrete! Pré-requisitos: Conhecimentos básicos em Linux, Docker e AWS.
+## 📒 Descrição
+Este projeto implementa uma arquitetura de microsserviços utilizando Docker, com foco em escalabilidade, independência entre aplicações e boas práticas de infraestrutura. Inspirado na história de superação de TOSHIRO SHIBAKITA, o projeto evolui o repositório original com melhorias técnicas e criativas.
+
+## 🧰 Tecnologias Utilizadas
+- Docker & Docker Compose
+- Node.js / Python / MongoDB / Nginx (exemplos)
+- AWS (ECS, S3, ou EC2)
+- GitHub Actions (CI/CD)
+- Prometheus & Grafana (monitoramento)
+
+## 🛠️ Estrutura do Projeto
+- `auth-service`: autenticação de usuários
+- `user-service`: gerenciamento de perfis
+- `notification-service`: envio de notificações
+- `frontend`: interface web
+- `nginx`: proxy reverso
+
+## 🧪 Melhorias Implementadas
+- Adição de novos serviços
+- Variáveis de ambiente com `.env`
+- Monitoramento com Prometheus
+- Deploy automatizado na AWS
+
+## 📦 Como Executar
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio
+cd seu-repositorio
+docker-compose up -d
